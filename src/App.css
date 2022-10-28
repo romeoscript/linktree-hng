@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 a {
+  text-decoration: unset;
+}
+.links a {
   display: block;
   align-items: center;
   padding: 24px 32px;
@@ -26,7 +29,7 @@ a {
   color: #101828;
 }
 @media (max-width: 550px) {
-  a {
+  .links a {
     width: auto;
   }
 }
@@ -64,20 +67,26 @@ a {
 
   color: #667085;
 }
-.profile{
- display: flex;
- justify-content: center;
- align-items: center;
- flex-direction: column;
- padding: 1rem;
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
 }
 .profile_container {
   width: 88px;
   height: 88px;
-  
 }
-.profile_container img{
+.profile_container img {
   height: 100%;
   width: 100%;
   border-radius: 50%;
+}
+.profile_name a {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #101828;
 }

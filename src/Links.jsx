@@ -10,11 +10,12 @@ const Links = () => {
     <>
       <div className="profile">
         <div className="profile_container">
-          <img src={profile} alt="" />
+          <img id="profile__img" src={profile} alt="" />
         </div>
-        <div className="profile_name">
-            
-        </div>
+        <h3 className="profile_name">
+         <a id="twitter" href="https://twitter.com/romeoscript1">Chukwuemeka Romeo </a>  
+         <h2 style={{ display:'none' }} id="slack">Romeoscript</h2>
+        </h3>
       </div>
       <div className="links">
         <a href="">Twitter Link</a>
