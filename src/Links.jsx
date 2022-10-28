@@ -18,12 +18,12 @@ const Links = () => {
         </h3>
       </div>
       <div className="links">
-        <a href="">Twitter Link</a>
-        <a href="">Zuri Team</a>
-        <a href="">Zuri Books</a>
-        <a href="">Python Books</a>
-        <a href="">Background Check for Coders</a>
-        <a href="">Design Books</a>
+        <a id="twitter" href="https://twitter.com/romeoscript1">Twitter Link</a>
+        <a href="https://training.zuri.team/" id="btn__zuri">Zuri Team</a>
+        <a href="https://books.zuri.team/" id="books">Zuri Books</a>
+        <a href="https://books.zuri.team/" id="book__python">Python Books</a>
+        <a href="https://background.zuri.team/" id="pitch">Background Check for Coders</a>
+        <a href="https://books.zuri.team/design-rules" id="book__design">Design Books</a>
       </div>
       <div className="social__links">
         <img src={slack} alt="" />
