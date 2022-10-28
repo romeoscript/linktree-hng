@@ -1,7 +1,10 @@
 import React from 'react'
+import github from './assets/Social icon.png'
+import slack from './assets/slack.png'
 
 const Links = () => {
   return (
+   <>
     <div className='links'>
       <a href="">Twitter Link</a>
       <a href="">Zuri Team</a>
@@ -11,6 +14,11 @@ const Links = () => {
       <a href="">Design Books</a>
      
     </div>
+    <div className="social__links">
+        <img src={slack} alt="" />
+        <img src={github} alt="" />
+    </div>
+   </>
   )
 }
 

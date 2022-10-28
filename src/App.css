@@ -33,3 +33,10 @@ a {
 .links{
   padding: 1rem;
 }
+.social__links{
+  text-align: center;
+
+}
+.social__links img{
+  margin: 1rem;
+}
