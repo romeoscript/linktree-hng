@@ -3,10 +3,19 @@ import github from "./assets/Social icon.png";
 import slack from "./assets/slack.png";
 import zuri from "./assets/Zuri.Internship_Logo.png";
 import i4g from "./assets/I4G.png";
+import profile from "./assets/WhatsApp Image 2022-10-28 at 4.35.06 AM.jpeg";
 
 const Links = () => {
   return (
     <>
+      <div className="profile">
+        <div className="profile_container">
+          <img src={profile} alt="" />
+        </div>
+        <div className="profile_name">
+            
+        </div>
+      </div>
       <div className="links">
         <a href="">Twitter Link</a>
         <a href="">Zuri Team</a>
