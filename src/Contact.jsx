@@ -20,6 +20,7 @@ const Contact = () => {
             <input type="email" placeholder='yourname@email.com' />
             <label htmlFor="message">Message</label><br />
             <textarea name="" id="" cols="30" rows="10" placeholder="Send me a message and I'll reply you as soon as possible..."></textarea>
+            <input type="submit" value="Send message" />
         </main>
       </form>
     </div>
