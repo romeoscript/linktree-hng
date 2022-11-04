@@ -11,11 +11,11 @@ const Contact = () => {
         <main className="form__flex">
             <div>
                 <label htmlFor="First name">First name</label> <br />
-                <input type="text" placeholder='Enter your first name'/>
+                <input type="text" id='first_name' placeholder='Enter your first name'/>
             </div>
             <div>
                 <label htmlFor="Last name">Last name</label> <br />
-                <input type="text" placeholder='Enter your Last name'/>
+                <input type="text" id='last_name' placeholder='Enter your Last name'/>
             </div>
            
         </main>
