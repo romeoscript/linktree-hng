@@ -1,11 +1,17 @@
 
 import './App.css';
 import Links from './Links';
+import { Routes, Route} from "react-router-dom";
+import Contact from './Contact';
 
 function App() {
   return (
     <div className="App">
-     <Links></Links>
+       <Routes>
+        <Route path="/" element={ <Links />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    
     </div>
   );
 }

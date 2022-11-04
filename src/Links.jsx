@@ -4,6 +4,7 @@ import slack from "./assets/slack.png";
 import zuri from "./assets/Zuri.Internship_Logo.png";
 import i4g from "./assets/I4G.png";
 import profile from "./assets/WhatsApp Image 2022-10-28 at 4.35.06 AM.jpeg";
+import { Link } from 'react-router-dom'
 
 const Links = () => {
   return (
@@ -24,6 +25,7 @@ const Links = () => {
         <a href="https://books.zuri.team/" id="book__python">Python Books</a>
         <a href="https://background.zuri.team/" id="pitch">Background Check for Coders</a>
         <a href="https://books.zuri.team/design-rules" id="book__design">Design Books</a>
+        <Link to="/contact" id="contact">Contact Me</Link>
       </div>
       <div className="social__links">
         <img src={slack} alt="" />
