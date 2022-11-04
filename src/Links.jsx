@@ -1,11 +1,9 @@
 import React from "react";
-import github from "./assets/Social icon.png";
-import slack from "./assets/slack.png";
-import zuri from "./assets/Zuri.Internship_Logo.png";
-import i4g from "./assets/I4G.png";
+
 import profile from "./assets/WhatsApp Image 2022-10-28 at 4.35.06 AM.jpeg";
 import { Link } from 'react-router-dom'
-
+import github from "./assets/Social icon.png";
+import slack from "./assets/slack.png";
 const Links = () => {
   return (
     <>
@@ -30,11 +28,6 @@ const Links = () => {
       <div className="social__links">
         <img src={slack} alt="" />
         <img src={github} alt="" />
-      </div>
-      <div className="footer">
-        <img src={zuri} alt="" />
-        <p>HNG Internship 9 Frontend Task</p>
-        <img src={i4g} alt="" />
       </div>
     </>
   );

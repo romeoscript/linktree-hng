@@ -3,6 +3,7 @@ import './App.css';
 import Links from './Links';
 import { Routes, Route} from "react-router-dom";
 import Contact from './Contact';
+import FooterIcon from './FooterIcon';
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
         <Route path="/" element={ <Links />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-    
+    <FooterIcon />
     </div>
   );
 }
