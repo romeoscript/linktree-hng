@@ -17,7 +17,7 @@ const Contact = () => {
                 <label htmlFor="Last name">Last name</label> <br />
                 <input type="text" placeholder='Enter your Last name'/>
             </div>
-            dkdsosdoso
+           
         </main>
         <label htmlFor="email">Email</label> <br />
             <input type="email" placeholder='yourname@email.com' />
