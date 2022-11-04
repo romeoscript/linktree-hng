@@ -19,13 +19,13 @@ const Contact = () => {
             </div>
            
         </main>
-        <label htmlFor="email">Email</label> <br />
-            <input type="email" placeholder='yourname@email.com' />
+        <label htmlFor="email" >Email</label> <br />
+            <input type="email" id='email' placeholder='yourname@email.com' />
             <label htmlFor="message">Message</label><br />
-            <textarea name="" id="" cols="30" rows="10" placeholder="Send me a message and I'll reply you as soon as possible..."></textarea>
+            <textarea name="" id="message" cols="30" rows="10" placeholder="Send me a message and I'll reply you as soon as possible..."></textarea>
 
             <input type="checkbox" /> <span>You agree to providing your data to {name} who may contact you.</span>
-            <input type="submit" value="Send message" />
+            <input type="submit" id='btn__submit' value="Send message" />
       </form>
     </div>
   )
