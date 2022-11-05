@@ -44,7 +44,7 @@ const Contact = () => {
             <label htmlFor="message">Message</label><br />
             <textarea name="" className={messageChange.trim()===''?'error__state':'romeo'} id="message" cols="30" rows="10" placeholder="Send me a message and I'll reply you as soon as possible..." onChange={messageChangeHandler} ></textarea>
            <span className={messageChange.trim()=== ''?'spanny':'span'}>Please enter a message</span> <br />
-            <input type="checkbox" /> <span>You agree to providing your data to {name} who may contact you.</span>
+            <input type="checkbox" /> <label>You agree to providing your data to {name} who may contact you.</label>
             <input type="submit" id='btn__submit' value="Send message" />
       </form>
     </div>
