@@ -70,6 +70,8 @@ input[type="checkbox"] {
   padding: 0;
   width: 20px;
   height: 20px;
+  /* appearance: none; */
+  /* -webkit-appearance: none; */
   display: inline;
   border-radius: 8px;
 }
@@ -85,12 +87,20 @@ input[type="checkbox"] {
     padding: 0.2rem;
   }
 }
+.spanny{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  color: #F83F23;
+  display: block;
+}
 .span{
   font-weight: 400;
 font-size: 14px;
 line-height: 20px;
 /* identical to box height, or 143% */
-
-
 color: #F83F23;
+
+display: none;
 }
